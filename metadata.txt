@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Dissect and dissolve overlaps
+qgisMinimumVersion=3.16
+description=Detect, zoom to, dissect and dissolve overlaps in one polygon layer.
+version=0.1
+author=Antonio Sobral Almeida
+email=66124.almeida@gmail.com
+
+about=Use this plugin to detect if a polygon layer has two or more features (polygons) overlapping each other. In this case, the plugin can dissect the overlaps into separate features and dissolve those features into the neighboring feature with the largest area. Download the Manual from: https://github.com/Almeida100/Dissect-and-dissolve-overlaps
+
+tracker=https://github.com/Almeida100/Dissect-and-dissolve-overlaps/issues
+repository=https://github.com/Almeida100/Dissect-and-dissolve-overlaps
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=attribute, editing, feature, intersection, polygon, shapefile, vector
+
+homepage=https://github.com/Almeida100/Dissect-and-dissolve-overlaps
+category=Analysis
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
