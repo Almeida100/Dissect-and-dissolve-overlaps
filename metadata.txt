@@ -6,11 +6,11 @@
 name=Dissect and dissolve overlaps
 qgisMinimumVersion=3.16
 description=Detect, zoom to, dissect and dissolve overlaps in one polygon layer.
-version=0.1
+version=0.2
 author=Antonio Sobral Almeida
 email=66124.almeida@gmail.com
 
-about=Use this plugin to detect if a polygon layer has two or more features (polygons) overlapping each other. In this case, the plugin can dissect the overlaps into separate features and dissolve those features into the neighboring feature with the largest area. Download the Manual from: https://github.com/Almeida100/Dissect-and-dissolve-overlaps
+about=Use this plugin to detect if a polygon layer has two or more features (polygons) overlapping each other. In this case, the plugin can dissect the overlaps into separate features and dissolve those features into the neighboring feature with the largest area. This plugin uses SAGA algorithms, so users' QGis installation must have SAGA enabled.  Download the Manual from: https://github.com/Almeida100/Dissect-and-dissolve-overlaps
 
 tracker=https://github.com/Almeida100/Dissect-and-dissolve-overlaps/issues
 repository=https://github.com/Almeida100/Dissect-and-dissolve-overlaps

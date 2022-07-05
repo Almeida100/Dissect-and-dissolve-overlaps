@@ -249,7 +249,7 @@ class DissectAndDissolveOverlapsAlgorithm(QgsProcessingAlgorithm):
         return 'DissectAndDissolveOverlaps'
 
     def displayName(self):
-        return 'Dissect and dissolve overlaps Ver. 0.1'
+        return 'Dissect and dissolve overlaps Ver. 0.2'
 
     def group(self):
         return ''
