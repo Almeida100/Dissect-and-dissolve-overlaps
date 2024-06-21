@@ -1,2 +1,2 @@
 # Dissect-and-dissolve-overlaps
-QGis 3.22 plugin to detect, zoom to, dissect and dissolve overlapping polygons (features) in one polygon layer.
+QGis 3.34 or higher plugin to detect, zoom to, dissect and dissolve overlapping polygons (features) in one polygon layer.
