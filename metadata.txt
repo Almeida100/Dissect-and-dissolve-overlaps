@@ -4,13 +4,13 @@
 
 [general]
 name=Dissect and dissolve overlaps
-qgisMinimumVersion=3.16
+qgisMinimumVersion=3.34
 description=Detect, zoom to, dissect and dissolve overlaps in one polygon layer.
-version=0.2
+version=0.5
 author=Antonio Sobral Almeida
 email=66124.almeida@gmail.com
 
-about=Use this plugin to detect if a polygon layer has two or more features (polygons) overlapping each other. In this case, the plugin can dissect the overlaps into separate features and dissolve those features into the neighboring feature with the largest area. This plugin uses SAGA algorithms, so users' QGis installation must have SAGA enabled.  Download the Manual from: https://github.com/Almeida100/Dissect-and-dissolve-overlaps
+about=Use this plugin to detect if a polygon layer has two or more features (polygons) overlapping each other. In this case, the plugin can dissect the overlaps into separate features and dissolve those features into the neighboring feature, with three options: largest area, smallest area or largest common boundary. Please download and read the Manual, available from homepage. To run the plugin, go to Processing Toolbox and click on  "Dissect and dissolve overlaps". To use the "Dissect and dissolve overlaps" plugin, you need to install and enable the "Processing Saga NextGen Provider" plugin, along with the latest SAGA GIS version (9.x): 1 - download the latest version 9.x of SAGA GIS; 2 - unzip the file "saga-9.3.2_x64" or newer and look for the file "saga4qgis"; unzip this file and follow the instructions contained therein; 3 - activate the "Processing Saga NextGen Provider" plugin by going to Settings->Options->Processing->Providers->SAGANG and enable SAGA New Generation, and look for the folder where "saga-9.3.2_x64" was unzipped (this folder must be kept in your PC).
 
 tracker=https://github.com/Almeida100/Dissect-and-dissolve-overlaps/issues
 repository=https://github.com/Almeida100/Dissect-and-dissolve-overlaps
